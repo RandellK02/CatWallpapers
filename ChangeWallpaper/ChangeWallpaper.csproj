@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A0894829-649E-4B18-838B-D0E6496E49CF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChangeWallpaper</RootNamespace>
+    <AssemblyName>ChangeWallpaper</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Master\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="rundll.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\0.jpg" />
+    <EmbeddedResource Include="Images\1.jpg" />
+    <EmbeddedResource Include="Images\10.jpg" />
+    <EmbeddedResource Include="Images\11.jpg" />
+    <EmbeddedResource Include="Images\12.jpg" />
+    <EmbeddedResource Include="Images\13.jpg" />
+    <EmbeddedResource Include="Images\14.jpg" />
+    <EmbeddedResource Include="Images\15.jpg" />
+    <EmbeddedResource Include="Images\16.jpg" />
+    <EmbeddedResource Include="Images\17.jpg" />
+    <EmbeddedResource Include="Images\18.jpg" />
+    <EmbeddedResource Include="Images\19.jpg" />
+    <EmbeddedResource Include="Images\2.jpg" />
+    <EmbeddedResource Include="Images\20.jpg" />
+    <EmbeddedResource Include="Images\21.jpg" />
+    <EmbeddedResource Include="Images\22.jpg" />
+    <EmbeddedResource Include="Images\23.jpg" />
+    <EmbeddedResource Include="Images\24.jpg" />
+    <EmbeddedResource Include="Images\25.jpg" />
+    <EmbeddedResource Include="Images\26.jpg" />
+    <EmbeddedResource Include="Images\27.jpg" />
+    <EmbeddedResource Include="Images\28.jpg" />
+    <EmbeddedResource Include="Images\29.jpg" />
+    <EmbeddedResource Include="Images\3.jpg" />
+    <EmbeddedResource Include="Images\30.jpg" />
+    <EmbeddedResource Include="Images\31.jpg" />
+    <EmbeddedResource Include="Images\32.jpg" />
+    <EmbeddedResource Include="Images\33.jpg" />
+    <EmbeddedResource Include="Images\34.jpg" />
+    <EmbeddedResource Include="Images\35.jpg" />
+    <EmbeddedResource Include="Images\36.jpg" />
+    <EmbeddedResource Include="Images\37.jpg" />
+    <EmbeddedResource Include="Images\38.jpg" />
+    <EmbeddedResource Include="Images\39.jpg" />
+    <EmbeddedResource Include="Images\4.jpg" />
+    <EmbeddedResource Include="Images\40.jpg" />
+    <EmbeddedResource Include="Images\41.jpg" />
+    <EmbeddedResource Include="Images\42.jpg" />
+    <EmbeddedResource Include="Images\43.jpg" />
+    <EmbeddedResource Include="Images\44.jpg" />
+    <EmbeddedResource Include="Images\45.jpg" />
+    <EmbeddedResource Include="Images\46.jpg" />
+    <EmbeddedResource Include="Images\47.jpg" />
+    <EmbeddedResource Include="Images\48.jpg" />
+    <EmbeddedResource Include="Images\49.jpg" />
+    <EmbeddedResource Include="Images\5.jpg" />
+    <EmbeddedResource Include="Images\50.jpg" />
+    <EmbeddedResource Include="Images\51.jpg" />
+    <EmbeddedResource Include="Images\52.jpg" />
+    <EmbeddedResource Include="Images\53.jpg" />
+    <EmbeddedResource Include="Images\54.jpg" />
+    <EmbeddedResource Include="Images\55.jpg" />
+    <EmbeddedResource Include="Images\56.jpg" />
+    <EmbeddedResource Include="Images\57.jpg" />
+    <EmbeddedResource Include="Images\58.jpg" />
+    <EmbeddedResource Include="Images\59.jpg" />
+    <EmbeddedResource Include="Images\6.jpg" />
+    <EmbeddedResource Include="Images\60.jpg" />
+    <EmbeddedResource Include="Images\61.jpg" />
+    <EmbeddedResource Include="Images\62.jpg" />
+    <EmbeddedResource Include="Images\63.jpg" />
+    <EmbeddedResource Include="Images\64.jpg" />
+    <EmbeddedResource Include="Images\65.jpg" />
+    <EmbeddedResource Include="Images\66.jpg" />
+    <EmbeddedResource Include="Images\67.jpg" />
+    <EmbeddedResource Include="Images\68.jpg" />
+    <EmbeddedResource Include="Images\69.jpg" />
+    <EmbeddedResource Include="Images\7.jpg" />
+    <EmbeddedResource Include="Images\70.jpg" />
+    <EmbeddedResource Include="Images\71.jpg" />
+    <EmbeddedResource Include="Images\8.jpg" />
+    <EmbeddedResource Include="Images\9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="refresh.ps1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ChangeWallpaper.exe" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
