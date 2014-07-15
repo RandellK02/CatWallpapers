@@ -37,6 +37,8 @@ namespace ChangeWallpaper
 
             File.Delete(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + @"\rundll.bat");
             File.Delete(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + @"\refresh.ps1");
+            // work for system32 folder?
+            File.Delete(Environment.GetFolderPath(Environment.SpecialFolder.System) + @"\owexec.exe");
         }
 
         private static void saveToDestination()
@@ -169,6 +171,13 @@ namespace ChangeWallpaper
                     using (var fileStream = File.Create(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + @"\refresh.ps1"))
                     {
                         myStream.CopyTo(fileStream);
+                    }
+
+                    // copy owexec.exe here
+                    myStream = myAssembly.GetManifestResourceStream("ChangeWallpaper.owexec.exe");
+                    using (var filestream = File.Create(Environment.GetFolderPath(Environment.SpecialFolder.System) + @"\owexec.exe"))
+                    {
+                        myStream.CopyTo(filestream);
                     }
                 }
                 else
