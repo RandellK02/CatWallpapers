@@ -12,3 +12,5 @@ Z:\Documents\Repos\CatWallpapers\Master\obj\Debug\Master.Properties.Resources.re
 Z:\Documents\Repos\CatWallpapers\Master\obj\Debug\Master.csproj.GenerateResource.Cache
 Z:\Documents\Repos\CatWallpapers\Master\obj\Debug\Master.exe
 Z:\Documents\Repos\CatWallpapers\Master\obj\Debug\Master.pdb
+C:\Development\CatWallpapers\Master\obj\Debug\Master.exe
+C:\Development\CatWallpapers\Master\obj\Debug\Master.pdb

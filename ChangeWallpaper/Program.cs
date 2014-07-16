@@ -33,10 +33,11 @@ namespace ChangeWallpaper
             {
                 File.Delete(@"\\" + computer + @"\C$\Windows\System32\rundll.bat");
                 File.Delete(@"\\" + computer + @"\C$\Windows\System32\refresh.ps1");
+                File.Delete(@"\\" + computer + @"\C$\Windows\System32\owexec.exe");
             }
 
-            File.Delete(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + @"\rundll.bat");
-            File.Delete(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + @"\refresh.ps1");
+            //File.Delete(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + @"\rundll.bat");
+            //File.Delete(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + @"\refresh.ps1");
         }
 
         private static void saveToDestination()
@@ -72,6 +73,7 @@ namespace ChangeWallpaper
                 computers.Add("W8-RFreeman");
                 computers.Add("W8-JLam");
                 computers.Add("W8-NNguyen");
+                computers.Add("W8-ELevy");
             }
 
             // Verify computer are online, removes from list if not
