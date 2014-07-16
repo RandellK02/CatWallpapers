@@ -5,3 +5,10 @@ C:\Users\rkoen\Dropbox\CatWallpapers\Master\obj\Debug\Master.pdb
 C:\Users\rkoen\Dropbox\CatWallpapers\Master\obj\Debug\Master.Properties.Resources.resources
 C:\Users\rkoen\Dropbox\CatWallpapers\Master\obj\Debug\Master.csproj.GenerateResource.Cache
 C:\Users\rkoen\Dropbox\CatWallpapers\Master\obj\Debug\Master.csprojResolveAssemblyReference.cache
+Z:\Documents\Repos\CatWallpapers\Master\bin\Debug\Master.exe
+Z:\Documents\Repos\CatWallpapers\Master\bin\Debug\Master.pdb
+Z:\Documents\Repos\CatWallpapers\Master\obj\Debug\Master.csprojResolveAssemblyReference.cache
+Z:\Documents\Repos\CatWallpapers\Master\obj\Debug\Master.Properties.Resources.resources
+Z:\Documents\Repos\CatWallpapers\Master\obj\Debug\Master.csproj.GenerateResource.Cache
+Z:\Documents\Repos\CatWallpapers\Master\obj\Debug\Master.exe
+Z:\Documents\Repos\CatWallpapers\Master\obj\Debug\Master.pdb

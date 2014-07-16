@@ -12,3 +12,6 @@ C:\Users\rkoen\Dropbox\CatWallpapers\Master\ChangeWallpaper.pdb
 C:\Users\rkoen\Dropbox\CatWallpapers\ChangeWallpaper\obj\Debug\ChangeWallpaper.csprojResolveAssemblyReference.cache
 Z:\Documents\Repos\CatWallpapers\ChangeWallpaper\obj\Debug\ChangeWallpaper.exe
 Z:\Documents\Repos\CatWallpapers\ChangeWallpaper\obj\Debug\ChangeWallpaper.pdb
+Z:\Documents\Repos\CatWallpapers\Master\ChangeWallpaper.exe
+Z:\Documents\Repos\CatWallpapers\Master\ChangeWallpaper.pdb
+Z:\Documents\Repos\CatWallpapers\ChangeWallpaper\obj\Debug\ChangeWallpaper.csprojResolveAssemblyReference.cache
